@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: IITG
+// Engineer: Rachit Singh
 // 
 // Create Date: 05.02.2023 02:21:16
 // Design Name: 
@@ -23,7 +23,7 @@
 module test(  );
 reg [3:0] x;
 wire [1:0]y;
-casee ff(.x(x),.y(y));
+/*priority_encoder ifelsee */ casee ff(.x(x),.y(y));
 initial
 begin
  x = 4'b0000;
