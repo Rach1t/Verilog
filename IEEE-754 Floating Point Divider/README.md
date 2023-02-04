@@ -1,1 +1,1 @@
-### This is a floting point divider module 
+### This is the parameterised code for floating-point divider
