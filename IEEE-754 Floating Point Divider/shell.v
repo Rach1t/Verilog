@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: IITG
+// Engineer: Rachit Singh
 // 
 // Create Date: 01.02.2023 11:15:42
 // Design Name: 
