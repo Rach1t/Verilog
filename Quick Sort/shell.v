@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: IITG
+// Engineer: Rachit Singh
 // 
 // Create Date: 21.03.2023 11:04:26
 // Design Name: 
 // Module Name: shell
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Project Name: Quick Sort
+// Target Devices: Artrix 7
+// Tool Versions: Vivado 2019.2
 // Description: 
 // 
 // Dependencies: 
