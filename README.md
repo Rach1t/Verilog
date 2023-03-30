@@ -6,3 +6,5 @@ This repository contains some standalone verilog modules that can be reused and 
 3. IEEE-754 Floating point divider
 4. Kogge stone Adder
 5. Priority Encoder
+6. IEEE 754 multiplier
+7. Quick Sort (hardware implementation of quick sort using verilog)
