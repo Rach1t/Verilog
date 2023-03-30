@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 23.03.2023 01:05:32
-// Design Name: 
-// Module Name: partition
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module partition#(parameter K = 10, N = 23, M = 8, L = N+M+1, S = $clog2(K) +1)( start_partition,Terminate, finish_partition,
                                                                                  start_mem, ranger_out,clk, Index, start_index, element_count  );
 input clk, start_partition,  start_mem;
