@@ -1,26 +1,5 @@
 
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 21.03.2023 11:09:09
-// Design Name: 
-// Module Name: sort
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module sort#(parameter N=23, M=8,L = N+M+1, K = 10)(clk,start_sort,a,G,finish_sort,H,No_element,index, finish_mem);
 input [(K*L)-1:0] a;
 input clk, start_sort, finish_mem;
