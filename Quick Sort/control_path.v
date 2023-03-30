@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 21.03.2023 20:04:18
-// Design Name: 
-// Module Name: control_path
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module control_path#(parameter K = 10, N = 23, M = 8, L = N+M+1, s0 = 2'b00, s1 = 2'b01, s2 = 2'b10, s3 = 2'b11, R = K/2,S = $clog2(K) +1)
                  (reset,start_s1, finish_mem, finish_sort,clk,finish
                  ,start_partition, finish_partition, start_sort, start_mem, reset_mem);
