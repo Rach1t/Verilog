@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 26.03.2023 18:13:46
-// Design Name: 
-// Module Name: Agrt
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module Agrt#(parameter N = 23, M = 8, L = N+M+1)(inp1, inp2,agrt);
   input [L-1:0] inp1, inp2;
   output reg agrt;
