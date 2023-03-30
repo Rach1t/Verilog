@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 21.03.2023 21:42:45
-// Design Name: 
-// Module Name: memory
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module memory#(parameter N = 23, M = 8, L = N+M+1, K = 10)(reset_mem, clk,
                                          start_mem, finish_mem, inp, Arr);
 input start_mem, clk, reset_mem;
@@ -51,21 +30,3 @@ always @(negedge clk)
   end
 endmodule
 
-/*
-//keep it simple!!
-module memory#(parameter N = 23, M = 8, L = N+M+1, K = 10)(reset_mem, add, wr_en, rd_en,inp,outp);
-input wr_en, rd_en, reset_mem;
-input [L-1:0] inp;
-input [$clog2(K)-1:0] add;
-output reg [L-1:0] outp;
-reg [(L*K)-1:0] mem;
-always @(wr_en, rd_en, add, reset_mem)
- begin
-  if(reset_mem) mem <= 0;
-  else
-  if(wr_en) mem[add+:L] <= inp;
-  else if(rd_en) outp <= mem[add+:L];
-  else outp <= 0;
-  end
-endmodule
-*/
