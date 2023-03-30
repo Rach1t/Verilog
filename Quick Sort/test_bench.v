@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: IITG
+// Engineer: Rachit Singh
 // 
 // Create Date: 22.03.2023 19:56:07
 // Design Name: 
 // Module Name: test_bench
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Project Name: Quick Sort
+// Target Devices: Quick Sort
+// Tool Versions: Vivado 2019.2
 // Description: 
 // 
 // Dependencies: 
