@@ -1,5 +1,5 @@
 ### This is the parameterised verilog code for hardware implementation of Quick Sort.
--The code consist of four states and six Modules.
+- The code consist of four states and six Modules.
 -Shell is the top module which gives the output serially after sorting is finished. All other modules are instantiated and connected with each other here.
 -control_path is the finite state machine which generates all the control signals required for functioning of other modules.
 -Memory stores the incoming input when machine is in state s1 and stores them in an array. When machine enters in state s2, this array is passed to module sort for sorting.
