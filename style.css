@@ -7,7 +7,7 @@
    height = 100vh;
    background-position: center;
    background-size: cover;
-   background-image: url(https://github.com/Rach1t/Verilog/blob/webpage/website/ezgif.com-webp-to-jpg.jpg);
+   background-image: url(website/ezgif.com-webp-to-jpg.jpg);
    }
 .Box_overlay{
    width: 100%;
