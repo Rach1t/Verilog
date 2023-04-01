@@ -3,8 +3,8 @@
    margin:0px;
  }
 .Box {
-   width = 100%;
-   height = 100vh;
+   width: 100%;
+   height: 100vh;
    background-position: center;
    background-size: cover;
    background-image: url(website/ezgif.com-webp-to-jpg.jpg);
@@ -12,11 +12,11 @@
 .Box_overlay{
    width: 100%;
    height: 100vh;
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color: rgba(255, 255, 255, 0.6);
    display: flex;
    justify-content: center;
    align-items: center;
-   color: white;
+   color: black;
    letter-spacing: 5px;
    
    
