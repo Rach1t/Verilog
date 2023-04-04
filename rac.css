@@ -19,7 +19,7 @@
    background-color: rgba(255, 255, 255, 0.6);
    display: flex;
    justify-content: center;
-   align-items: center;
+  /* align-items: center;*/
    color: black;
    letter-spacing: 5px;  
 }
